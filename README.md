@@ -1,0 +1,2 @@
+# vexsmp
+A minecraft server
