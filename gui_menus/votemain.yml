@@ -1,0 +1,23 @@
+open_command: vote
+register_command: true
+size: 27
+menu_title: '&#07FFFF&lVex&#09B0FF&lSMP&8 | &#09B0FF&lVote Menu'
+
+
+
+items:
+  'playerhead':
+    slot: 12
+    material: head-%player_name%
+    display_name: '&#3e7bbb%player_name% Votes: %VotingPlugin_alltimetotal%'
+
+  'vote-links-menu':
+    slot: 14
+    material: BOOK
+    display_name: '&#FF29BD&lV&#F92FB4&lo&#F235AC&lt&#EC3CA3&li&#E5429B&ln&#DF4892&lg &#D94E89&lL&#D25481&li&#CC5B78&ln&#C56170&lk&#BF6767&ls'
+    left_click_commands:
+    - '[player] votemenu'
+    right_click_commands:
+    - '[player] votemenu'
+
+

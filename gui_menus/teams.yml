@@ -1,0 +1,251 @@
+    menu_title: '&#07FFFF&lVex&#09B0FF&lSMP&8 | &#09B0FF&lTeams Menu'
+    open_command:
+    - teams
+    register_command: true
+    size: 44
+    items:
+#############################################################################################
+      'close':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJkN2E3NTFlYjA3MWUwOGRiYmM5NWJjNWQ5ZDY2ZTVmNTFkYzY3MTI2NDBhZDJkZmEwM2RlZmJiNjhhN2YzYSJ9fX0=
+        slot: 40
+        display_name: '&8[&cɢᴏ ʙᴀᴄᴋ&8]'
+        lore:
+        - ''
+        - '&fClick here to go back'
+        - '&fto the help menu!'
+        - ''
+        click_commands:
+        - '[openguimenu] help'
+##############################################################################################
+      '1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWZmZmRiNGY3NWUxNjc4ZWNmYWE1ZjQyYTMyZjExZTFjYzA4Nzk0NmY0ODU3NDYzYWU2NjQ3Y2MzZTAwNzllMiJ9fX0=
+        slot: 13
+        display_name: '&#2075c3&lC&#2077ca&lr&#1f79d0&le&#1f7ad7&la&#1f7cde&lt&#1e7ee4&le &#1e80eb&lT&#1e81f2&le&#1d83f8&la&#1d85ff&lm'
+        lore:
+        - ''
+        - '&#2075c3&lF&#2077cb&le&#1f79d2&la&#1f7bda&lt&#1f7de1&lu&#1e7fe9&lr&#1e81f0&le&#1d83f8&ls&#1d85ff&l:'
+        - '&8❖ &fteam tag &8[&7up to 4 letters&8]'
+        - '&8❖ &falliances'
+        - '&8❖ &fteam home'
+        - '&8❖ &ftoggleable friendly-fire'
+        - '&8❖ &fteam chat'
+        - ''
+        - '&#2075c3&lC&#2077cc&lo&#1f7ad4&lm&#1f7cdd&lm&#1e7ee5&la&#1e80ee&ln&#1d83f6&ld&#1d85ff&l:'
+        - '&8❖ &f/team create <name> [tag]'
+        - ''
+        - '&8➟ &#2075c3&lC&#2076c7&lL&#2077cb&lI&#1f78cf&lC&#1f79d3&lK &#1f7ad7&lF&#1f7bdb&lO&#1f7cdf&lR &#1e7ee3&lM&#1e7fe7&lO&#1e80eb&lR&#1e81ef&lE &#1e82f3&lI&#1d83f7&lN&#1d84fb&lF&#1d85ff&lO'
+        click_commands:
+        - '[message]'
+        - '[message]&#2075c3&lT&#2076c6&le&#2077c9&la&#2078cc&lm &#1f78d0&lC&#1f79d3&lr&#1f7ad6&le&#1f7bd9&la&#1f7cdc&lt&#1f7ddf&li&#1e7de3&lo&#1e7ee6&ln &#1e7fe9&lC&#1e80ec&lo&#1e81ef&lm&#1e82f2&lm&#1d82f6&la&#1d83f9&ln&#1d84fc&ld&#1d85ff&l:'
+        - '[message]&8❖ &#2075c3/team create <name> [tag]'
+        - '[message]'
+        - '[close]'
+###############################################################        
+      '2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2E3MDdlNzQxZmYyMjM0MzgwOTE2YzI2NWY2OThkODIyOThlYzNjMWIzMmI1YjA0ZGFjNDA3NmUxODA0MTlkMiJ9fX0=
+        slot: 23
+        display_name: '&#ff25dc&lL&#ff2fe0&le&#fe39e5&la&#fe43e9&lv&#fe4dee&le &#fd56f2&lT&#fd60f6&le&#fc6afb&la&#fc74ff&lm'
+        lore:
+        - ''
+        - '&fHave an issue with your &#FC74FFteam&f?'
+        - '&fYou are always free to &#FC74FFleave it&f!'
+        - ''
+        - '&#ff25dC&lC&#ff30e1&lo&#fe3ce6&lm&#fe47eb&lm&#fd52f0&la&#fd5df5&ln&#fc69fa&ld&#fc74ff&l:'
+        - '&8❖ &f/team leave'
+        - ''
+        - '&8➟ &#ff25dc&lC&#ff2ade&lL&#ff30e1&lI&#fe35e3&lC&#fe3ae5&lK &#fe3fe8&lF&#fe45ea&lO&#fe4aec&lR &#fd4fef&lM&#fd54f1&lO&#fd5af3&lR&#fd5ff6&lE &#fd64f8&lI&#fc69fa&lN&#fc6ffd&lF&#fc74ff&lO'
+        click_commands:
+        - '[message]'
+        - '[message]&#ff25dc&lT&#ff2ade&le&#ff2fe0&la&#fe34e3&lm &#fe39e5&lL&#fe3ee7&le&#fe43e9&la&#fe48eb&lv&#fe4dee&le &#fd51f0&lC&#fd56f2&lo&#fd5bf4&lm&#fd60f6&lm&#fd65f8&la&#fc6afb&ln&#fc6ffd&ld&#fc74ff&l:'
+        - '[message]&8❖ &#ff25dc/team leave'
+        - '[message]'
+        - '[close]'
+###############################################################        
+      '3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI3NmI0ZWU5ODg1NzIyOTdjYmQ4NzQ2ODNiZWU5NmFlM2M1NWNlOTRjMDA0ZTUxYWRjODJjZWUxNmNkMGIwYyJ9fX0=
+        slot: 21
+        display_name: '&#ff0000&lD&#ff0a0a&li&#ff1313&ls&#ff1d1d&lb&#ff2626&la&#ff3030&ln&#ff3939&ld &#ff4343&lT&#ff4c4c&le&#ff5656&la&#ff5f5f&lm'
+        lore:
+        - ''
+        - '&fHas the time finally come? if you''re'
+        - '&fthe &cteam owner&f, you can &cdisband the team&f!'
+        - ''
+        - '&#ff0000&lW&#ff0e0e&la&#ff1b1b&lr&#ff2929&ln&#ff3636&li&#ff4444&ln&#ff5151&lg&#ff5f5f&l:'
+        - '&fThis action is &cirreversible&f, make sure'
+        - '&fyou are absolutely certain that you want'
+        - '&fto &cdisband &fthe team before doing so!'
+        - ''
+        - '&#ff0000&lC&#ff0e0e&lo&#ff1b1b&lm&#ff2929&lm&#ff3636&la&#ff4444&ln&#ff5151&ld&#ff5f5f&l:'
+        - '&8❖ &f/team disband'
+        - ''
+        - '&8➟ &#ff0000&lC&#ff0606&lL&#ff0d0d&lI&#ff1313&lC&#ff1919&lK &#ff2020&lF&#ff2626&lO&#ff2c2c&lR &#ff3333&lM&#ff3939&lO&#ff3f3f&lR&#ff4646&lE &#ff4c4c&lI&#ff5252&lN&#ff5959&lF&#ff5f5f&lO'
+        click_commands:
+        - '[message]'
+        - '[message]&#ff0000&lT&#ff0505&le&#ff0b0b&la&#ff1010&lm &#ff1515&lD&#ff1a1a&li&#ff2020&ls&#ff2525&lb&#ff2a2a&la&#ff3030&ln&#ff3535&ld &#ff3a3a&lC&#ff3f3f&lo&#ff4545&lm&#ff4a4a&lm&#ff4f4f&la&#ff5454&ln&#ff5a5a&ld&#ff5f5f&l:'
+        - '[message]&8❖ &#ff0000/team disband'
+        - '[message]'
+        - '[close]'
+###############################################################    
+      '4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ0MWJhMzA5MTA2MWM2OTliOGVhNDA4NTAxMTAzNzhlOTU0NTQwNDhkMWY1MTA1NmM2YWVjMzk1MDUxM2VhYiJ9fX0=
+        slot: 29
+        display_name: '&#14ff00&lI&#1dff0a&ln&#26ff13&lv&#2fff1d&li&#38ff27&lt&#41ff30&li&#4aff3a&ln&#52ff44&lg &#5bff4d&lU&#64ff57&ls&#6dff61&le&#76ff6a&lr&#7fff74&ls'
+        lore:
+        - ''
+        - '&fA team isn''t a team without &aother players&f!'
+        - '&fYou can &ainvite &fplayers to your team!'
+        - ''
+        - '&#14ff00&lC&#23ff11&lo&#33ff21&lm&#42ff32&lm&#51ff42&la&#60ff53&ln&#70ff63&ld&#7fff74&l:'
+        - '&8❖ &f/team invite [username]'
+        - ''
+        - '&8➟ &#14ff00&lC&#1bff08&lL&#22ff0f&lI&#29ff17&lC&#31ff1f&lK &#38ff27&lF&#3fff2e&lO&#46ff36&lR &#4dff3e&lM&#54ff46&lO&#5bff4d&lR&#62ff55&lE &#6aff5d&lI&#71ff65&lN&#78ff6c&lF&#7fff74&lO'
+        click_commands:
+        - '[message]'
+        - '[message]&#14ff00&lT&#1aff07&le&#21ff0e&la&#27ff14&lm &#2dff1b&lI&#33ff22&ln&#3aff29&lv&#40ff30&li&#46ff37&lt&#4dff3d&le &#53ff44&lC&#59ff4b&lo&#60ff52&lm&#66ff59&lm&#6cff60&la&#72ff66&ln&#79ff6d&ld&#7fff74&l:'
+        - '[message]&8❖ &#14ff00/team invite [username]'
+        - '[message]'
+        - '[close]'
+###############################################################
+      '5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZhMjdlZGRmNjBhMDQ4Mzc3OGM4ZTNjNjY1MGY1Mjg4MzQxZjM4YmI5ZTQzMTc5YzY2YmIxZTdiMWQ5ZGQ2YiJ9fX0=
+        slot: 30
+        display_name: '&#ffaa04&lT&#ffb003&le&#ffb703&la&#ffbd02&lm &#ffc302&lC&#ffc901&lh&#ffd001&la&#ffd600&lt'
+        lore:
+        - ''
+        - '&fYou can use a &6private chat'
+        - '&fin-game to talk to &6team members'
+        - '&fas well as &6allies&f. &fNormal rules still'
+        - '&fapply in those chats!'
+        - ''
+        - '&#ffaa04&lC&#ffb004&lo&#ffb503&lm&#ffbb03&lm&#ffc002&la&#ffc602&ln&#ffcb01&ld&#ffd101&ls&#ffd600&l:'
+        - '&8❖ &f/team chat [message]'
+        - '&8❖ &f/team allychat [message]'
+        - ''
+        - '&8➟ &#ffaa04&lC&#ffad04&lL&#ffb003&lI&#ffb303&lC&#ffb603&lK &#ffb903&lF&#ffbc02&lO&#ffbf02&lR &#ffc102&lM&#ffc402&lO&#ffc701&lR&#ffca01&lE &#ffcd01&lI&#ffd001&lN&#ffd300&lF&#ffd600&lO'
+        click_commands:
+        - '[message]'
+        - '[message]&#ffaa04&lT&#ffac04&le&#ffae04&la&#ffb003&lm&#ffb203&l/&#ffb403&lA&#ffb703&ll&#ffb903&ll&#ffbb02&ly &#ffbd02&lC&#ffbf02&lh&#ffc102&la&#ffc302&lt &#ffc502&lC&#ffc701&lo&#ffc901&lm&#ffcc01&lm&#ffce01&la&#ffd001&ln&#ffd200&ld&#ffd400&ls&#ffd600&l:'
+        - '[message]&8❖ &#ffaa04/team chat'
+        - '[message]&8❖ &#ffaa04/team allychat'
+        - '[message]'
+        - '[close]'
+###############################################################        
+      '6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWVlOWJhYzBhZDRhYmY1OTU1NmE5ODY0ODAwNGU4Mzc0MWQ3NmU0MDk3YjJkZjAzNzIwN2YxYTY5ZDRhZmNmZCJ9fX0=
+        slot: 32
+        display_name: '&#fff504&lA&#fff618&ll&#fef82b&ll&#fef93f&ly &#fefb52&lT&#fefc66&le&#fdfe79&la&#fdff8d&lm'
+        lore:
+        - ''
+        - '&eTeams &fcan be friends with &eother teams&f!'
+        - '&fAllies can &etake your side &fand be in your &eally chat&f!'
+        - ''
+        - '&#fff504&lC&#fff615&lo&#fff826&lm&#fef937&lm&#fefa49&la&#fefb5a&ln&#fefd6b&ld&#fdfe7c&ls&#fdff8d&l:'
+        - '&8❖ &f/team ally [team name]'
+        - '&8❖ &f/team neutral [team name]'
+        - ''
+        - '&8➟ &#fff504&lC&#fff60d&lL&#fff616&lI&#fff71f&lC&#fef829&lK &#fef832&lF&#fef93b&lO&#fefa44&lR &#fefa4d&lM&#fefb56&lO&#fefc5f&lR&#fefc68&lE &#fdfd72&lI&#fdfe7b&lN&#fdfe84&lF&#fdff8d&lO'
+        click_commands:
+        - '[message]'
+        - '[message]&#fff504&lT&#fff509&le&#fff60f&la&#fff614&lm &#fff719&lA&#fff71e&ll&#fff724&ll&#fef829&ly &#fef82e&lM&#fef833&la&#fef939&ln&#fef93e&la&#fefa43&lg&#fefa49&le&#fefa4e&lm&#fefb53&le&#fefb58&ln&#fefc5e&lt &#fefc63&lC&#fefc68&lo&#fdfd6d&lm&#fdfd73&lm&#fdfd78&la&#fdfe7d&ln&#fdfe82&ld&#fdff88&ls&#fdff8d&l:'
+        - '[message]&8❖ &#fff504/team ally [team name]'
+        - '[message]&8❖ &#fff504/team neutral [team name]'
+        - '[message]'
+        - '[close]'
+###############################################################
+      '7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTdiYjRkYTkzZGYyZGU5MmJhNjM5YmEzMzQzN2MxNDkxMWMyOWJlMmVhNTdmYmYzMDViODBlZmZhZWNjNGJmYyJ9fX0=
+        slot: 31
+        display_name: '&#8f00ff&lT&#9d05fc&le&#ab0bfa&la&#b910f7&lm &#c715f5&lR&#d51af2&lo&#e320ef&ll&#f125ed&le&#ff2aea&ls'
+        lore:
+        - ''
+        - '&#8b8b8b&lM&#9c9c9c&le&#acacac&lm&#bdbdbd&lb&#cdcdcd&le&#dedede&lr&#eeeeee&ls&#ffffff&l:'
+        - '&fVisit team home and use ally/team chats!'
+        - ''
+        - '&#ff5353&lA&#ff5c57&ld&#ff645b&lm&#ff6d60&li&#ff7664&ln&#ff7e68&ls&#ff876c&l:'
+        - '&fInvite users, ban/unban users,'
+        - '&ftoggle friendly fire, manage allies.'
+        - ''
+        - '&#ff0000&lO&#ff0c0c&lw&#ff1717&ln&#ff2323&le&#ff2f2f&lr&#ff3a3a&ls&#ff4646&l:'
+        - '&fSet/delete team home, handle team ranks,'
+        - '&fset name of team, toggle invite-only, and disband!'
+        - ''
+        - '&#8f00ff&lC&#9d05fc&lo&#ab0bfa&lm&#b910f7&lm&#c715f5&la&#d51af2&ln&#e320ef&ld&#f125ed&ls&#ff2aea&l:'
+        - '&8❖ &f/team promote [username]'
+        - '&8❖ &f/team demote [username]'
+        - ''
+        - '&8➟ &#8f00ff&lC&#9603fe&lL&#9e06fc&lI&#a508fb&lC&#ad0bf9&lK &#b40ef8&lF&#bc11f7&lO&#c314f5&lR &#cb16f4&lM&#d219f2&lO&#da1cf1&lR&#e11ff0&lE &#e922ee&lI&#f024ed&lN&#f827eb&lF&#ff2aea&lO'
+        click_commands:
+        - '[message]'
+        - '[message]&#8f00ff&lT&#9301fe&le&#9603fe&la&#9a04fd&lm &#9e06fc&lP&#a207fc&lr&#a508fb&lo&#a90afa&lm&#ad0bf9&lo&#b10df9&lt&#b40ef8&li&#b80ff7&lo&#bc11f7&ln&#c012f6&l/&#c314f5&lD&#c715f5&le&#cb16f4&lm&#ce18f3&lo&#d219f2&lt&#d61bf2&li&#da1cf1&lo&#dd1df0&ln &#e11ff0&lC&#e520ef&lo&#e922ee&lm&#ec23ee&lm&#f024ed&la&#f426ec&ln&#f827eb&ld&#fb29eb&ls&#ff2aea&l:'
+        - '[message]&8❖ &#8f00ff/team promote [username]'
+        - '[message]&8❖ &#8f00ff/team demote [username]'
+        - '[message]'
+        - '[close]'
+###############################################################
+      '8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRmN2ZhMTk2ZDhmOWFhY2ZjMDgxYjgxZTNjYWUxYmU0MWNmZGJlZGQzMDkyOGRjOWJjYzhjNTc5MGYyMmFkOSJ9fX0=
+        slot: 33
+        display_name: '&#04a4ff&lK&#0ea8fc&li&#18acfa&lc&#22b1f7&lk &#2cb5f4&lM&#36b9f2&le&#40bdef&lm&#4ac1ec&lb&#54c6e9&le&#5ecae7&lr&#68cee4&ls'
+        lore:
+        - ''
+        - '&fIf and when you must, you can &bremove &fteam members'
+        - '&fif they are not following your &brules&f. Team &badmins'
+        - '&fand the &bowner &fcan remove team members.'
+        - ''
+        - '&#04a4ff&lC&#11a9fc&lo&#1daff8&lm&#2ab4f5&lm&#36b9f2&la&#43beee&ln&#4fc4eb&ld&#5cc9e7&ls&#68cee4&l:'
+        - '&8❖ &f/team kick [username]'
+        - '&8❖ &f/team ban/unban [username]'
+        - ''
+        - '&8➟ &#04a4ff&lC&#0ba7fd&lL&#11aafb&lI&#18acfa&lC&#1faff8&lK &#25b2f6&lF&#2cb5f4&lO&#33b8f2&lR &#39baf1&lM&#40bdef&lO&#47c0ed&lR&#4dc3eb&lE &#54c6e9&lI&#5bc8e8&lN&#61cbe6&lF&#68cee4&lO'
+        click_commands:
+        - '[message]'
+        - '[message]&#04a4ff&lT&#08a6fe&le&#0ba7fd&la&#0fa9fc&lm &#12aafb&lM&#16acfa&le&#19adf9&lm&#1daff8&lb&#21b0f7&le&#24b2f6&lr &#28b3f5&lM&#2bb5f4&la&#2fb6f3&ln&#32b8f2&la&#36b9f2&lg&#3abbf1&le&#3dbcf0&lm&#41beef&le&#44bfee&ln&#48c1ed&lt &#4bc2ec&lC&#4fc4eb&lo&#53c5ea&lm&#56c7e9&lm&#5ac8e8&la&#5dcae7&ln&#61cbe6&ld&#64cde5&ls&#68cee4&l:'
+        - '[message]&8❖ &#04A4FF/team kick [username]'
+        - '[message]&8❖ &#04A4FF/team ban/unban [username]'
+        - '[message]'
+        - '[close]'
+###############################################################          
+      GLASS-CYAN:
+        material: cyan_stained_glass_pane
+        display_name: '&f'
+        slots:
+        - 0
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 37
+        - 38
+        - 39
+        - 41
+        - 42
+        - 43
+        - 44
+      GLASS-LIGHT-BLUE:
+        material: light_blue_stained_glass_pane
+        display_name: '&f'
+        slots:
+        - 10
+        - 11
+        - 12
+        - 14
+        - 15
+        - 16
+        - 19
+        - 20
+        - 22
+        - 24
+        - 25
+        - 28
+        - 34

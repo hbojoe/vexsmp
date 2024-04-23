@@ -1,0 +1,82 @@
+open_command: votemenu
+register_command: true
+size: 27
+menu_title: '&#07FFFF&lVex&#09B0FF&lSMP&8 | &#09B0FF&lVote Links'
+
+items:
+  'book':
+    slot: 10
+    material: book
+    display_name: '             &#575757[ &#5752da&lALL VOTE LINKS &#575757]       '
+    lore: 
+      - '&cClick this book to get all voting links at once'
+      - ' '
+      - '&#d12977 Voting rewards&#575757:'
+      - '  &#3e7bbb - x1 Vote Key'
+      - '  &#3e7bbb - $50'
+    click_commands:
+      - '[message] &f'
+      - '[message] &b&nhttps://linkmix.co/17496850'
+      - '[message] &f'
+      - '[close]'
+  
+  'MinecraftServersorg':
+    slot: 12
+    material: paper
+    display_name: '&#ffe63c&lM&#ffde3d&li&#ffd73e&ln&#ffcf40&le&#ffc741&lc&#ffbf42&lr&#ffb843&la&#ffb044&lf&#ffa846&lt&#ffa047&lS&#ff9948&le&#ff9149&lr&#ff894b&lv&#ff814c&le&#ff7a4d&lr&#ff724e&ls&#ff6a4f&l.&#ff6251&lo&#ff5b52&lr&#ff5353&lg'
+    lore:
+      - '&cClick here for the MinecraftServers.org voting link!'
+    click_commands:
+      - '[message] &f'
+      - '[message] &#d12977https://minecraftservers.org/vote/651866'
+      - '[message] &f'
+      - '[close]'
+
+  'minecraftserverlist':
+    slot: 13
+    material: paper
+    display_name: '&#ffe63c&lM&#ffde3d&li&#ffd63f&ln&#ffce40&le&#ffc541&lc&#ffbd42&lr&#ffb544&la&#ffad45&lf&#ffa546&lt&#ff9d48&lS&#ff9449&le&#ff8c4a&lr&#ff844b&lv&#ff7c4d&le&#ff744e&lr&#ff6c4f&lL&#ff6350&li&#ff5b52&ls&#ff5353&lt'
+    lore:
+      - '&cClick here for the minecraft-server-list.com voting link!'
+    click_commands:
+      - '[message] &f'
+      - '[message] &#d12977https://minecraft-server-list.com/server/497286/vote/'
+      - '[message] &f'
+      - '[close]'
+
+  'minecraft-mp':
+    slot: 14
+    material: paper
+    display_name: '&#fffcf6&lM&#edeef7&li&#dce0f8&ln&#cad2f8&le&#b9c4f9&lc&#a7b6fa&lr&#96a9fb&la&#849bfc&lf&#738dfd&lt&#617ffd&l-&#5071fe&lM&#3e63ff&lP'
+    lore:
+      - '&cClick here for the minecraft-mp.com voting link!'
+    click_commands:
+      - '[message] &f'
+      - '[message] &#d12977https://minecraft-mp.com/server/320784/vote/'
+      - '[message] &f'
+      - '[close]'
+
+  'top-minecraft-servers-org':
+    slot: 15
+    material: paper
+    display_name: '&#D6FFBA&lT&#CCF2B1&lo&#C2E5A7&lp&#B8D79E&lM&#ADCA94&li&#A3BD8B&ln&#99B082&le&#8FA278&lc&#85956F&lr&#7B8866&la&#707B5C&lf&#666E53&lt&#5C6049&lS&#525340&le&#484637&lr&#3E392D&lv&#332B24&le&#291E1A&lr&#1F1111&ls'
+    lore:
+      - '&cClick here for the servers-minecraft.org voting link!'
+    click_commands:
+      - '[message] &f'
+      - '[message] &#d12977https://servers-minecraft.net/server-enternitysmp.24936'
+      - '[message] &f'
+      - '[close]'
+  'servers-minecraft-net':
+    slot: 16
+    material: paper
+    display_name: '&#FFD066&lM&#F1CF65&li&#E4CE65&ln&#D6CD64&le&#C8CB64&lc&#BBCA63&lr&#ADC963&la&#9FC862&lf&#92C762&lt&#84C661&lS&#76C561&le&#69C460&lr&#5BC260&lv&#4DC15F&le&#40C05F&lr&#32BF5E&ls'
+    lore:
+      - '&cClick here for the best-minecraft.co voting link!'
+    click_commands:
+      - '[message] &f'
+      - '[message] &#d12977https://best-minecraft-servers.co/server-enternitysmp.17134/vote'
+      - '[message] &f'
+      - '[close]'
+
+

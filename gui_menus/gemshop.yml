@@ -1,0 +1,59 @@
+open_command:
+  - store
+  - gems
+  - buyrank
+register_command: true
+size: 27
+menu_title: '&#07FFFF&lVex&#09B0FF&lSMP&8 | &#09B0FF&lGem Shop'
+
+items:
+
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: "&f"
+    data: 1
+    slots: [0-26]
+
+
+  'close':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJkN2E3NTFlYjA3MWUwOGRiYmM5NWJjNWQ5ZDY2ZTVmNTFkYzY3MTI2NDBhZDJkZmEwM2RlZmJiNjhhN2YzYSJ9fX0=
+    data: 1
+    slot: 22
+    display_name: "&8[&cɢᴏ ʙᴀᴄᴋ&8]"
+    lore: []
+    click_commands:
+    - '[openguimenu] menu'
+
+  'main':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyZDJmOTMxMDQ0NDFjYTU2NmY3YjcxOGMzZGQwMzgyY2IzOGY5Njc4YjVjYjE4MWVhMjQ4N2EyZjdmODI2YiJ9fX0=
+    data: 1
+    slot: 12
+    display_name: "&#ff3d47&lServer Ranks"
+    lore:
+      - "&8Donator Ranks"
+      - ""
+      - "&fRanks are the &#ff6970BEST &fway of"
+      - "&fgetting server perks for the"
+      - "&#ff6970CHEAPEST &fprice."
+      - ""
+      - "&#ff3d47&lCLICK TO SEE THE GEM SHOP"
+      - ""
+    click_commands:
+      - '[openguimenu] ranks'
+  'tags':
+    material: NAME_TAG
+    data: 1
+    slot: 14
+    display_name: "&#F1C5FF&lServer Tags"
+    lore:
+      - "&8Donator Tags"
+      - ""
+      - "&fTags are the an awesome way of"
+      - "&fshowing off a cool and"
+      - "&#F1C5FFCUSTOM &ftag."
+      - ""
+      - "&#F1C5FF&lCLICK TO SEE THE TAG SHOP"
+      - ""
+    click_commands:
+      - '[close]'
+      - '[openguimenu] tags'

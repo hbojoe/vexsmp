@@ -1,0 +1,87 @@
+open_command: socials
+register_command: true
+size: 27
+menu_title: '&#07FFFF&lVex&#09B0FF&lSMP&8 | &#09B0FF&lLinks'
+
+items:
+
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: "&f "
+    data: 1
+    slots: [0-26]
+
+  'website':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjg5ODA0Yjc5ODZhMWZlMDhlOWUyOTY2ZGNkMjg2ZjcyZWRiNTI4NzBjZWFlNzRjYzZmMGUwNTc0Y2JmNDFlMyJ9fX0=
+    data: 1
+    slot: 10
+    display_name: "&#ea47ba&lWebsite"
+    lore:
+      - "&#ea47bahttps://vexsmp.com"
+      - "&#52FF5A➥ Click to visit our Website"
+    click_commands:
+      - '[message] &8------------------------------------------'
+      - '[message] &8'
+      - '[message] {#09B0FF}&lᴡᴇʙꜱɪᴛᴇ: &b&nhttps://vexsmp.com'
+      - '[message] &8'
+      - '[message] &8------------------------------------------'
+      - '[close]'
+
+  'store':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFiZTRiNWI1OTJmZWUyMWE2NWUwZjkwMzAzOGM1MzMzYmUzODgyMzRhNDM3MzFkNGFkZmU1ZDU3ZDM2NDRlNSJ9fX0=
+    data: 1
+    slot: 12
+    display_name: "&#26d4df&lStore"
+    lore:
+      - "&#26d4dfhttps://vexsmp.com/store"
+      - "&#52FF5A➥ Click to visit our Store"
+    click_commands:
+      - '[message] &8------------------------------------------'
+      - '[message] &8'
+      - '[message] {#09B0FF}&lꜱᴛᴏʀᴇ: &b&nhttps://store.vexsmp.com'
+      - '[message] &8'
+      - '[message] &8------------------------------------------'
+      - '[close]'
+      
+
+  'map':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc5ZTU0Y2JlODc4NjdkMTRiMmZiZGYzZjE4NzA4OTQzNTIwNDhkZmVjZDk2Mjg0NmRlYTg5M2IyMTU0Yzg1In19fQ==
+    data: 1
+    slot: 14
+    display_name: "&#C5A5F5&lLive Map"
+    lore:
+      - "&#C5A5F5https://www.vexsmp.com/map"
+      - "&#52FF5A➥ Click to open the Live Map!"
+    click_commands:
+      - '[message] &8------------------------------------------'
+      - '[message] &8'
+      - '[message] {#09B0FF}&lʟɪᴠᴇ ᴍᴀᴘ: &b&nhttps://vexsmp.com/map'
+      - '[message] &8'
+      - '[message] &8------------------------------------------'
+      - '[close]'
+
+  'discord':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RhOTQ0OWNlYTEyMTE5YzIyY2E1YjkzYzI4Y2JlOWRmMzE1MjFjYTE1OWE1ZWE1ZmFhNWZmYjVhMTc4MGY1NyJ9fX0=
+    data: 1
+    slot: 16
+    display_name: "&#7289da&lDiscord"
+    lore:
+      - "&#7289dahttps://discord.gg/24azYahJSV"
+      - "&#52FF5A➥ Click to open Discord!"
+    click_commands:
+      - '[message] &8------------------------------------------'
+      - '[message] &8'
+      - '[message] {#09B0FF}&lᴅɪꜱᴄᴏʀᴅ: &b&nhhtps://discord.gg/pjCX7fS3yJ'
+      - '[message] &8'
+      - '[message] &8------------------------------------------'
+      - '[close]'
+      
+      
+  'close':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJkN2E3NTFlYjA3MWUwOGRiYmM5NWJjNWQ5ZDY2ZTVmNTFkYzY3MTI2NDBhZDJkZmEwM2RlZmJiNjhhN2YzYSJ9fX0=
+    data: 1
+    slot: 22
+    display_name: "&8[&cɢᴏ ʙᴀᴄᴋ&8]"
+    lore: []
+    click_commands:
+    - '[openguimenu] menu'

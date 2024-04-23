@@ -1,0 +1,386 @@
+menu_title: '&#07FFFF&lVex&#09B0FF&lSMP&8 | &#09B0FF&lRanks'
+open_command: ranks
+size: 54
+items:
+  'glass1':
+    material: YELLOW_STAINED_GLASS_PANE
+    slots:
+    - 0
+    - 1
+    - 2
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 16
+    - 17
+    - 18
+    - 26
+    - 27
+    - 35
+    - 36
+    - 37
+    - 43
+    - 44
+    - 45
+    - 46
+    - 47
+    - 51
+    - 52
+    - 53
+    display_name: ' '
+  'glass2':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+    - 3
+    - 5
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 20
+    - 29
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 48
+    - 50
+    display_name: ' ' 
+  'exit':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJkN2E3NTFlYjA3MWUwOGRiYmM5NWJjNWQ5ZDY2ZTVmNTFkYzY3MTI2NDBhZDJkZmEwM2RlZmJiNjhhN2YzYSJ9fX0='
+    slot: 49
+    display_name: '&4↓ &cEXIT &4↓'
+    lore:
+    - ''
+    - '&8➠ &cClick to exit menu'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+    
+    
+
+  'member':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlmZWIyNGMwYmE1ZGRmOGI3NmU2YTY4YmM0OTUxMmRmMWY2MjBhNzJhN2JkMGFmNjcxOGIyZGZjMTQ5OThmYyJ9fX0='
+    slot: 19
+    display_name: '&8» &7[&#aeaeae&lM&#b7b7b7&lE&#c0c0c0&lM&#cacaca&lB&#d3d3d3&lE&#dcdcdc&lR&8]&7 ʙᴇɴᴇꜰɪᴛꜱ'
+    lore:
+    - ''
+    - '&fBenefits of this rank'
+    - ' &e1. &fPrefix &8[&#aeaeae&lM&#b7b7b7&lE&#c0c0c0&lM&#cacaca&lB&#d3d3d3&lE&#dcdcdc&lR&8]'
+    - ' &e2. &fAllowed to create &e&l1 &f/sethome'
+    - ' &e3. &a100 &7Claim blocks per hour'
+  'hero':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQxM2E1NTNiZjhhNGY3NmU0MTJiODhmY2M5YWJiM2ZhMWFlMWJiYTNiMDgyYjY0YzJiYWEyYzMxNmVjOTI2NiJ9fX0='
+    slot: 21
+    display_name: '&8» &8[&#6386d5&lH&#6a8ad8&lE&#708ddc&lR&#7791df&lO&8]&7 ʙᴇɴᴇꜰɪᴛꜱ'
+    lore:
+    - ''
+    - '&fBenefits of this rank'
+    - ' &e1. &fPrefix &8[&#6386d5&lH&#6a8ad8&lE&#708ddc&lR&#7791df&lO&8]'
+    - ' &e2. &fAllowed to create &e&l1 &fpwarps'
+    - ' &e3. &fAllowed to create &e&l2 &f/sethome'
+    - ' &c5. &a125 &7Claim blocks per hour'    
+  'titan':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk5YzI2ZjU5ZTUyNWRiNjZlYTY2ZTNhYzkzYjVhZWQ3OTViYzEzM2FjMmJlYzE2OGE5MjY3NWMxMzBmNTY3NSJ9fX0='
+    slot: 22
+    display_name: '&8» &8[&#ae63d5&lT&#ab68d8&lI&#a86dda&lT&#a572dd&lA&#a277df&lN&8]&7 ʙᴇɴᴇꜰɪᴛꜱ'
+    lore:
+    - ''
+    - '&fBenefits of this rank'
+    - ' &e1. &fPrefix &8[&#ae63d5&lT&#ab68d8&lI&#a86dda&lT&#a572dd&lA&#a277df&lN&8]'
+    - ' &e2. &fAllowed to create &e&l2 &fpwarps'
+    - ' &e3. &fAllowed to create &e&l4 &f/sethome'
+    - ' &e5. &fColored typing &e&l/chatcolor'   
+    - ' &e6. &a150 &7Claim blocks per hour'       
+  'legend':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmEwYTg4MzY4ODQ5YWJhOWI0YjljZTRlMzhlMmI0ODM5OTg4ZGRlZTg2MzQyY2ZjZTkzOGRhODY4NDJhOTE1MyJ9fX0='
+    slot: 23
+    display_name: '&8» &8[&#d5a434&lL&#d7ad31&lE&#d9b72f&lG&#dbc02c&lE&#ddca2a&lN&#dfd327&lD&8]&7 ʙᴇɴᴇꜰɪᴛꜱ'
+    lore:
+    - ''
+    - '&fBenefits of this rank'
+    - ' &e1. &fPrefix &8[&#d5a434&lL&#d7ad31&lE&#d9b72f&lG&#dbc02c&lE&#ddca2a&lN&#dfd327&lD&8]'
+    - ' &e2. &fAllowed to create &e&l3 &fpwarps'
+    - ' &e3. &fAllowed to create &e&l6 &f/sethome'
+    - ' &e5. &fColored typing &e&l/chatcolor'   
+    - ' &e6. &fAllowed to repair items &e&l/repair'  
+    - ' &c7. &a175 &7Claim blocks per hour'
+  'immortal':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGU2YWNjZmU4OTk4Y2NlZjgwNzgzNmE1ODAxMGUyNTE5N2U0ODYyNGQwNmZlOTBiYmE4MDFlNWM2OGViYmM2YSJ9fX0='
+    slot: 24
+    display_name: '&8» &8[&#d56550&lI&#d66653&lM&#d86656&lM&#d96759&lO&#db685d&lR&#dc6960&lT&#de6963&lA&#df6a66&lL&8]&7 ʙᴇɴᴇꜰɪᴛꜱ'
+    lore:
+    - ''
+    - '&fBenefits of this rank'
+    - ' &e1. &fPrefix &8[&#d56550&lI&#d66653&lM&#d86656&lM&#d96759&lO&#db685d&lR&#dc6960&lT&#de6963&lA&#df6a66&lL&8]'
+    - ' &e2. &fAllowed to create &e&l4 &fpwarps'
+    - ' &e3. &fAllowed to create &e&l8 &f/sethome'
+    - ' &e5. &fColored typing &e&l/chatcolor'   
+    - ' &e6. &fAllowed to repair items &e&l/repair'  
+    - ' &e7. &fAllowed to heal yourself &e&l/heal'
+    - ' &c8. &a200 &7Claim blocks per hour'
+  'eternal':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVhNzZiMzgyZDQyNWY0ZGJhYTJlZDc0NWUzYTkzZWNkN2JmOTFiNTNlNDAyMzM4NDkyNzg4NWM0NDdlZWYwMCJ9fX0='
+    slot: 25
+    display_name: '&8» &8[&#FB0000&lE&#FC1B01&lT&#FC3602&lE&#FD5204&lR&#FE6D05&lN&#FE8806&lA&#FFA307&lL&8]&7 ʙᴇɴᴇꜰɪᴛꜱ'
+    lore:
+    - ''
+    - '&fBenefits of this rank'
+    - ' &e1. &fPrefix &8[&#FB0000&lE&#FC1B01&lT&#FC3602&lE&#FD5204&lR&#FE6D05&lN&#FE8806&lA&#FFA307&lL&8]'
+    - ' &e2. &fAllowed to create &e&l5 &fpwarps'
+    - ' &e3. &fAllowed to create &e&l10 &f/sethome'
+    - ' &e5. &fColored typing &e&l/chatcolor'   
+    - ' &e6. &fAllowed to repair items &e&l/repair'  
+    - ' &e7. &fAllowed to heal yourself &e&l/heal'
+    - ' &e9. &fClear your inventory &e&l/clear'
+  'own-member':
+    material: 'PAPER'
+    slot: 28
+    display_name: '&e⬩ &fʀᴀɴᴋ &8[&7Member&8]'
+    lore:
+    - '&8&m--[-----------------]--'
+    - ''
+    - '&fꜱᴛᴀᴛᴜꜱ &8➠ &cAlready own this rank'
+    - ''
+    - '&8&m--[-----------------]--'
+  'buy-hero':
+    material: 'PAPER'
+    slot: 30
+    priority: 2
+    display_name: '&e⬩ &fʀᴀɴᴋ &8[&#6386d5&lH&#6a8ad8&lE&#708ddc&lR&#7791df&lO&8]'
+    lore:
+    - '&8&o(( &f&oPayment is voluntary, any' 
+    - '&f&o      refund is prohibited &8&o))'
+    - ''
+    - '&fᴘʀɪᴄᴇ &8➠ &b4,500 Gems'
+    - '&fʀᴀɴᴋ &8➠ &8[&#6386d5&lH&#6a8ad8&lE&#708ddc&lR&#7791df&lO&8]'
+    - ''
+    - '&e&nClick to buy rank'
+    click_requirement:
+      requirements:
+        coins:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: '4500'
+      deny_commands:
+      - '[close]'
+      - '[message] &#07FFFF&lVex&#09B0FF&lSMP &8| &fYou do not have enough gems.'
+    click_commands:
+    - '[close]'
+    - '[sound] entity_experience_orb_pickup'
+    - '[console] lp user %player_name% parent add hero'
+    - '[console] points take %player_name% 4500'
+    - '[message] &#07FFFF&lVex&#09B0FF&lSMP &8| &fSuccessfully bought rank.'
+    - '[message] &#07FFFF&lVex&#09B0FF&lSMP &8| &fYou have &b%playerpoints_points_formatted% &fleft'
+  'own-hero':
+    material: 'PAPER'
+    slot: 30
+    priority: 1
+    view_requirement:
+      requirements:
+        tag:
+          type: has permission
+          permission: 'group.hero'
+    display_name: '&e⬩ &fʀᴀɴᴋ &8[&#6386d5&lH&#6a8ad8&lE&#708ddc&lR&#7791df&lO&8]'
+    lore:
+    - '&8&m--[-----------------]--'
+    - ''
+    - '&fꜱᴛᴀᴛᴜꜱ &8➠ &cAlready own this rank'
+    - ''
+    - '&8&m--[-----------------]--'
+  'buy-titan':
+    material: 'PAPER'
+    slot: 31
+    priority: 2
+    display_name: '&e⬩ &fʀᴀɴᴋ &8[&#ae63d5&lT&#ab68d8&lI&#a86dda&lT&#a572dd&lA&#a277df&lN&8]'
+    lore:
+    - '&8&o(( &f&oPayment is voluntary, any' 
+    - '&f&o      refund is prohibited &8&o))'
+    - ''
+    - '&fᴘʀɪᴄᴇ &8➠ &b9,000 Gems'
+    - '&fʀᴀɴᴋ &8➠ &8[&#ae63d5&lT&#ab68d8&lI&#a86dda&lT&#a572dd&lA&#a277df&lN&8]'
+    - ''
+    - '&e&nClick to buy rank'
+    click_requirement:
+      requirements:
+        coins:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: '9000'
+      deny_commands:
+      - '[close]'
+      - '[message] &#07FFFF&lVex&#09B0FF&lSMP &8| &fYou do not have enough gems.'
+    click_commands:
+    - '[close]'
+    - '[sound] entity_experience_orb_pickup'
+    - '[console] lp user %player_name% parent add titan'
+    - '[console] points take %player_name% 9000'
+    - '[message] &#07FFFF&lVex&#09B0FF&lSMP &8| &fSuccessfully bought rank.'
+    - '[message] &#07FFFF&lVex&#09B0FF&lSMP &8| &fYou have &b%playerpoints_points_formatted% &fleft'
+  'own-titan':
+    material: 'PAPER'
+    slot: 31
+    priority: 1
+    view_requirement:
+      requirements:
+        tag:
+          type: has permission
+          permission: 'group.titan'
+    display_name: '&e⬩ &fʀᴀɴᴋ &8[&#ae63d5&lT&#ab68d8&lI&#a86dda&lT&#a572dd&lA&#a277df&lN&8]'
+    lore:
+    - '&8&m--[-----------------]--'
+    - ''
+    - '&fꜱᴛᴀᴛᴜꜱ &8➠ &cAlready own this rank'
+    - ''
+    - '&8&m--[-----------------]--'
+  'buy-legend':
+    material: 'PAPER'
+    slot: 32
+    priority: 2
+    display_name: '&e⬩ &fʀᴀɴᴋ &8[&#d5a434&lL&#d7ad31&lE&#d9b72f&lG&#dbc02c&lE&#ddca2a&lN&#dfd327&lD&8]'
+    lore:
+    - '&8&o(( &f&oPayment is voluntary, any' 
+    - '&f&o      refund is prohibited &8&o))'
+    - ''
+    - '&fᴘʀɪᴄᴇ &8➠ &b18,000 Gems'
+    - '&fʀᴀɴᴋ &8➠ &8[&#d5a434&lL&#d7ad31&lE&#d9b72f&lG&#dbc02c&lE&#ddca2a&lN&#dfd327&lD&8]'
+    - ''
+    - '&e&nClick to buy rank'
+    click_requirement:
+      requirements:
+        coins:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: '18000'
+      deny_commands:
+      - '[close]'
+      - '[message] &#07FFFF&lVex&#09B0FF&lSMP &8| &fYou do not have enough gems.'
+    click_commands:
+    - '[close]'
+    - '[sound] entity_experience_orb_pickup'
+    - '[console] lp user %player_name% parent add legend'
+    - '[console] points take %player_name% 18000'
+    - '[message] &#07FFFF&lVex&#09B0FF&lSMP &8| &fSuccessfully bought rank.'
+    - '[message] &#07FFFF&lVex&#09B0FF&lSMP &8| &fYou have &b%playerpoints_points_formatted% &fleft'
+  'own-legend':
+    material: 'PAPER'
+    slot: 32
+    priority: 1
+    view_requirement:
+      requirements:
+        tag:
+          type: has permission
+          permission: 'group.legend'
+    display_name: '&e⬩ &fRank &8[&#d5a434&lL&#d7ad31&lE&#d9b72f&lG&#dbc02c&lE&#ddca2a&lN&#dfd327&lD&8]'
+    lore:
+    - '&8&m--[-----------------]--'
+    - ''
+    - '&fꜱᴛᴀᴛᴜꜱ &8➠ &cAlready own this rank'
+    - ''
+    - '&8&m--[-----------------]--'
+  'buy-immortal':
+    material: 'PAPER'
+    slot: 33
+    priority: 2
+    display_name: '&e⬩ &fʀᴀɴᴋ &8[&#d56550&lI&#d66653&lM&#d86656&lM&#d96759&lO&#db685d&lR&#dc6960&lT&#de6963&lA&#df6a66&lL&8]'
+    lore:
+    - '&8&o(( &f&oPayment is voluntary, any' 
+    - '&f&o      refund is prohibited &8&o))'
+    - ''
+    - '&fᴘʀɪᴄᴇ &8➠ &b28,000 Gems'
+    - '&fʀᴀɴᴋ &8➠ &8[&#d56550&lI&#d66653&lM&#d86656&lM&#d96759&lO&#db685d&lR&#dc6960&lT&#de6963&lA&#df6a66&lL&8]'
+    - ''
+    - '&e&nClick to buy rank'
+    click_requirement:
+      requirements:
+        coins:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: '28000'
+      deny_commands:
+      - '[close]'
+      - '[message] &#07FFFF&lVex&#09B0FF&lSMP &8| &fYou do not have enough gems.'
+    click_commands:
+    - '[close]'
+    - '[sound] entity_experience_orb_pickup'
+    - '[console] lp user %player_name% parent add immortal'
+    - '[console] points take %player_name% 28000'
+    - '[message] &#07FFFF&lVex&#09B0FF&lSMP &8| &fSuccessfully bought rank.'
+    - '[message] &#07FFFF&lVex&#09B0FF&lSMP &8| &fYou have &b%playerpoints_points_formatted% &fleft'
+  'own-immortal':
+    material: 'PAPER'
+    slot: 33
+    priority: 1
+    view_requirement:
+      requirements:
+        tag:
+          type: has permission
+          permission: 'group.immortal'
+    display_name: '&e⬩ &fʀᴀɴᴋ &8[&#d56550&lI&#d66653&lM&#d86656&lM&#d96759&lO&#db685d&lR&#dc6960&lT&#de6963&lA&#df6a66&lL&8]'
+    lore:
+    - '&8&m--[-----------------]--'
+    - ''
+    - '&fꜱᴛᴀᴛᴜꜱ &8➠ &cAlready own this rank'
+    - ''
+    - '&8&m--[-----------------]--'
+  'buy-eternal':
+    material: 'PAPER'
+    slot: 34
+    priority: 2
+    display_name: '&e⬩ &fʀᴀɴᴋ &8[&#FB0000&lE&#FC1B01&lT&#FC3602&lE&#FD5204&lR&#FE6D05&lN&#FE8806&lA&#FFA307&lL&8]'
+    lore:
+    - '&8&o(( &f&oPayment is voluntary, any' 
+    - '&f&o      refund is prohibited &8&o))'
+    - ''
+    - '&fᴘʀɪᴄᴇ &8➠ &b37,000 gems'
+    - '&fʀᴀɴᴋ &8➠ &8[&#FB0000&lE&#FC1B01&lT&#FC3602&lE&#FD5204&lR&#FE6D05&lN&#FE8806&lA&#FFA307&lL&8]'
+    - ''
+    - '&e&nClick to buy rank'
+    click_requirement:
+      requirements:
+        coins:
+          type: '>='
+          input: "%playerpoints_points%"
+          output: '37000'
+      deny_commands:
+      - '[close]'
+      - '[message] &#C0E611S&#C7E50Fe&#CEE30Dr&#D5E20Bv&#DCE009e&#E3DF08r&#EADD06N&#F1DC04a&#F8DA02m&#FFD900e &8| &fYou do not have enough gems.'
+    click_commands:
+    - '[close]'
+    - '[sound] entity_experience_orb_pickup'
+    - '[console] lp user %player_name% parent add eternal'
+    - '[console] points take %player_name% 37000'
+    - '[message] &#07FFFF&lVex&#09B0FF&lSMP &8| &fSuccessfully bought rank.'
+    - '[message] &#07FFFF&lVex&#09B0FF&lSMP &8| &fYou have &b%playerpoints_points_formatted% &fleft'
+  'own-eternal':
+    material: 'PAPER'
+    slot: 34
+    priority: 1
+    view_requirement:
+      requirements:
+        tag:
+          type: has permission
+          permission: 'group.eternal'
+    display_name: '&e⬩ &fʀᴀɴᴋ &8[&#FB0000&lE&#FC1B01&lT&#FC3602&lE&#FD5204&lR&#FE6D05&lN&#FE8806&lA&#FFA307&lL&8]'
+    lore:
+    - '&8&m--[-----------------]--'
+    - ''
+    - '&fꜱᴛᴀᴛᴜꜱ &8➠ &cAlready own this rank'
+    - ''
+    - '&8&m--[-----------------]--'
+    
+    
+  items:
+  'playerhead':
+    slot: 4
+    material: head-%player_name%
+    display_name: '&8↓ &fᴘʀᴏꜰɪʟᴇ &8↓'
+    lore:
+    - ''
+    - '&fɢᴇᴍꜱ&8: &b%playerpoints_points_formatted%'
+    - '&fʀᴀɴᴋ &8➠ &e%luckperms_prefix%'

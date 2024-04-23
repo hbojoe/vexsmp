@@ -1,0 +1,369 @@
+# DeluxeMenus 1.14.0-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: true
+gui_menus:
+  gemshop:
+    file: gemshop.yml
+  ranks:
+    file: ranks.yml
+  menu:
+    file: menu.yml
+  teams:
+    file: teams.yml
+  warps:
+    file: warps.yml
+  help:
+    file: help.yml
+  rules:
+    file: rules.yml
+  socials:
+    file: socials.yml
+  vote:
+    file: vote.yml
+  votemain:
+    file: votemain.yml
+  # ### JOBS MAIN & YOUR STATS
+  jobsmain:
+    file: jobs/jobsmain.yml
+  jobshelp:
+    file: jobs/jobshelp.yml
+  jobstop:
+    file: jobs/jobstop.yml
+  jobsyourstats:
+    file: jobs/jobsyourstats.yml
+  jobsgeneralstats:
+    file: jobs/jobsgeneralstats.yml
+  jobsdailyquests:
+    file: jobs/jobsdailyquests.yml
+  
+  # ### JOBS BROWSE
+  jobsbrowse:
+    file: jobs/browse/jobsbrowse.yml
+  jobsbrowse2:
+    file: jobs/browse/jobsbrowse2.yml
+  jobsbrowse3:
+    file: jobs/browse/jobsbrowse3.yml
+  baker:
+    file: jobs/browse/baker.yml
+  brewer:
+    file: jobs/browse/brewer.yml
+  builder:
+    file: jobs/browse/builder.yml
+  caretaker:
+    file: jobs/browse/caretaker.yml
+  cooker:
+    file: jobs/browse/cooker.yml
+  crafter:
+    file: jobs/browse/crafter.yml
+  digger:
+    file: jobs/browse/digger.yml
+  enchanter:
+    file: jobs/browse/enchanter.yml
+  explorer:
+    file: jobs/browse/explorer.yml
+  farmer:
+    file: jobs/browse/farmer.yml
+  fisherman:
+    file: jobs/browse/fisherman.yml
+  hunter:
+    file: jobs/browse/hunter.yml
+  merchant:
+    file: jobs/browse/merchant.yml
+  miner:
+    file: jobs/browse/miner.yml
+  smelter:
+    file: jobs/browse/smelter.yml
+  taster:
+    file: jobs/browse/taster.yml
+  weaponsmith:
+    file: jobs/browse/weaponsmith.yml
+  woodcutter:
+    file: jobs/browse/woodcutter.yml
+  
+  # ### JOBS PAYOUTS
+  bakerpayouts:
+    file: jobs/payouts/bakerpayouts.yml
+  brewerpayouts:
+    file: jobs/payouts/brewerpayouts.yml
+  builderpayouts:
+    file: jobs/payouts/builderpayouts.yml
+  builderpayouts2:
+    file: jobs/payouts/builderpayouts2.yml
+  builderpayouts3:
+    file: jobs/payouts/builderpayouts3.yml
+  builderpayouts4:
+    file: jobs/payouts/builderpayouts4.yml
+  builderpayouts5:
+    file: jobs/payouts/builderpayouts5.yml
+  builderpayouts6:
+    file: jobs/payouts/builderpayouts6.yml
+  builderpayouts7:
+    file: jobs/payouts/builderpayouts7.yml
+  builderpayouts8:
+    file: jobs/payouts/builderpayouts8.yml
+  builderpayouts9:
+    file: jobs/payouts/builderpayouts9.yml
+  builderpayouts10:
+    file: jobs/payouts/builderpayouts10.yml
+  caretakerpayouts:
+    file: jobs/payouts/caretakerpayouts.yml
+  cookerpayouts:
+    file: jobs/payouts/cookerpayouts.yml
+  crafterpayouts:
+    file: jobs/payouts/crafterpayouts.yml
+  crafterpayouts2:
+    file: jobs/payouts/crafterpayouts2.yml
+  crafterpayouts3:
+    file: jobs/payouts/crafterpayouts3.yml
+  diggerpayouts:
+    file: jobs/payouts/diggerpayouts.yml
+  enchanterpayouts:
+    file: jobs/payouts/enchanterpayouts.yml
+  enchanterpayouts2:
+    file: jobs/payouts/enchanterpayouts2.yml
+  explorerpayouts:
+    file: jobs/payouts/explorerpayouts.yml
+  farmerpayouts:
+    file: jobs/payouts/farmerpayouts.yml
+  farmerpayouts2:
+    file: jobs/payouts/farmerpayouts2.yml
+  farmerpayouts3:
+    file: jobs/payouts/farmerpayouts3.yml
+  farmerpayouts4:
+    file: jobs/payouts/farmerpayouts4.yml
+  fishermanpayouts:
+    file: jobs/payouts/fishermanpayouts.yml
+  hunterpayouts:
+    file: jobs/payouts/hunterpayouts.yml
+  hunterpayouts2:
+    file: jobs/payouts/hunterpayouts2.yml
+  hunterpayouts3:
+    file: jobs/payouts/hunterpayouts3.yml
+  merchantpayouts:
+    file: jobs/payouts/merchantpayouts.yml
+  merchantpayouts2:
+    file: jobs/payouts/merchantpayouts2.yml
+  merchantpayouts3:
+    file: jobs/payouts/merchantpayouts3.yml
+  merchantpayouts4:
+    file: jobs/payouts/merchantpayouts4.yml
+  minerpayouts:
+    file: jobs/payouts/minerpayouts.yml
+  minerpayouts2:
+    file: jobs/payouts/minerpayouts2.yml
+  minerpayouts3:
+    file: jobs/payouts/minerpayouts3.yml
+  smelterpayouts:
+    file: jobs/payouts/smelterpayouts.yml
+  tasterpayouts:
+    file: jobs/payouts/tasterpayouts.yml
+  weaponsmithpayouts:
+    file: jobs/payouts/weaponsmithpayouts.yml
+  weaponsmithpayouts2:
+    file: jobs/payouts/weaponsmithpayouts2.yml
+  woodcutterpayouts:
+    file: jobs/payouts/woodcutterpayouts.yml
+  
+  # ### JOBS SKILL-TREE
+  skilltreeselectjob:
+    file: jobs/skilltree/skilltreeselectjob.yml
+  skilltreebaker:
+    file: jobs/skilltree/skilltreebaker.yml
+  skilltreebakervip:
+    file: jobs/skilltree/skilltreebakervip.yml
+  skilltreebrewer:
+    file: jobs/skilltree/skilltreebrewer.yml
+  skilltreebrewervip:
+    file: jobs/skilltree/skilltreebrewervip.yml
+  skilltreebuilder:
+    file: jobs/skilltree/skilltreebuilder.yml
+  skilltreebuildervip:
+    file: jobs/skilltree/skilltreebuildervip.yml
+  skilltreecaretaker:
+    file: jobs/skilltree/skilltreecaretaker.yml
+  skilltreecaretakervip:
+    file: jobs/skilltree/skilltreecaretakervip.yml
+  skilltreecooker:
+    file: jobs/skilltree/skilltreecooker.yml
+  skilltreecookervip:
+    file: jobs/skilltree/skilltreecookervip.yml
+  skilltreecrafter:
+    file: jobs/skilltree/skilltreecrafter.yml
+  skilltreecraftervip:
+    file: jobs/skilltree/skilltreecraftervip.yml
+  skilltreedigger:
+    file: jobs/skilltree/skilltreedigger.yml
+  skilltreediggervip:
+    file: jobs/skilltree/skilltreediggervip.yml
+  skilltreeenchanter:
+    file: jobs/skilltree/skilltreeenchanter.yml
+  skilltreeenchantervip:
+    file: jobs/skilltree/skilltreeenchantervip.yml
+  skilltreeexplorer:
+    file: jobs/skilltree/skilltreeexplorer.yml
+  skilltreeexplorervip:
+    file: jobs/skilltree/skilltreeexplorervip.yml
+  skilltreefarmer:
+    file: jobs/skilltree/skilltreefarmer.yml
+  skilltreefarmervip:
+    file: jobs/skilltree/skilltreefarmervip.yml
+  skilltreefisherman:
+    file: jobs/skilltree/skilltreefisherman.yml
+  skilltreefishermanvip:
+    file: jobs/skilltree/skilltreefishermanvip.yml
+  skilltreehunter:
+    file: jobs/skilltree/skilltreehunter.yml
+  skilltreehuntervip:
+    file: jobs/skilltree/skilltreehuntervip.yml
+  skilltreemerchant:
+    file: jobs/skilltree/skilltreemerchant.yml
+  skilltreemerchantvip:
+    file: jobs/skilltree/skilltreemerchantvip.yml
+  skilltreeminer:
+    file: jobs/skilltree/skilltreeminer.yml
+  skilltreeminervip:
+    file: jobs/skilltree/skilltreeminervip.yml
+  skilltreesmelter:
+    file: jobs/skilltree/skilltreesmelter.yml
+  skilltreesmeltervip:
+    file: jobs/skilltree/skilltreesmeltervip.yml
+  skilltreetaster:
+    file: jobs/skilltree/skilltreetaster.yml
+  skilltreetastervip:
+    file: jobs/skilltree/skilltreetastervip.yml
+  skilltreeweaponsmith:
+    file: jobs/skilltree/skilltreeweaponsmith.yml
+  skilltreeweaponsmithvip:
+    file: jobs/skilltree/skilltreeweaponsmithvip.yml
+  skilltreewoodcutter:
+    file: jobs/skilltree/skilltreewoodcutter.yml
+  skilltreewoodcuttervip:
+    file: jobs/skilltree/skilltreewoodcuttervip.yml
+  
+  # ### JOBS SHOP
+
+  
+    # ### JOBS ADMIN
+  boostpanelselect:
+    file: jobs/admin/boostpanelselect.yml
+  
+  boostexpselectjob:
+    file: jobs/admin/exp/boostexpselectjob.yml
+  boostexpall:
+    file: jobs/admin/exp/boostexpall.yml
+  boostexpbaker:
+    file: jobs/admin/exp/boostexpbaker.yml
+  boostexpbrewer:
+    file: jobs/admin/exp/boostexpbrewer.yml
+  boostexpbuilder:
+    file: jobs/admin/exp/boostexpbuilder.yml
+  boostexpcaretaker:
+    file: jobs/admin/exp/boostexpcaretaker.yml
+  boostexpcooker:
+    file: jobs/admin/exp/boostexpcooker.yml
+  boostexpcrafter:
+    file: jobs/admin/exp/boostexpcrafter.yml
+  boostexpdigger:
+    file: jobs/admin/exp/boostexpdigger.yml
+  boostexpenchanter:
+    file: jobs/admin/exp/boostexpenchanter.yml
+  boostexpexplorer:
+    file: jobs/admin/exp/boostexpexplorer.yml
+  boostexpfarmer:
+    file: jobs/admin/exp/boostexpfarmer.yml
+  boostexpfisherman:
+    file: jobs/admin/exp/boostexpfisherman.yml
+  boostexphunter:
+    file: jobs/admin/exp/boostexphunter.yml
+  boostexpminer:
+    file: jobs/admin/exp/boostexpminer.yml
+  boostexpsmelter:
+    file: jobs/admin/exp/boostexpsmelter.yml
+  boostexptaster:
+    file: jobs/admin/exp/boostexptaster.yml
+  boostexpweaponsmith:
+    file: jobs/admin/exp/boostexpweaponsmith.yml
+  boostexpwoodcutter:
+    file: jobs/admin/exp/boostexpwoodcutter.yml
+  
+  boostmoneyselectjob:
+    file: jobs/admin/money/boostmoneyselectjob.yml
+  boostmoneyall:
+    file: jobs/admin/money/boostmoneyall.yml
+  boostmoneybaker:
+    file: jobs/admin/money/boostmoneybaker.yml
+  boostmoneybrewer:
+    file: jobs/admin/money/boostmoneybrewer.yml
+  boostmoneybuilder:
+    file: jobs/admin/money/boostmoneybuilder.yml
+  boostmoneycaretaker:
+    file: jobs/admin/money/boostmoneycaretaker.yml
+  boostmoneycooker:
+    file: jobs/admin/money/boostmoneycooker.yml
+  boostmoneycrafter:
+    file: jobs/admin/money/boostmoneycrafter.yml
+  boostmoneydigger:
+    file: jobs/admin/money/boostmoneydigger.yml
+  boostmoneyenchanter:
+    file: jobs/admin/money/boostmoneyenchanter.yml
+  boostmoneyexplorer:
+    file: jobs/admin/money/boostmoneyexplorer.yml
+  boostmoneyfarmer:
+    file: jobs/admin/money/boostmoneyfarmer.yml
+  boostmoneyfisherman:
+    file: jobs/admin/money/boostmoneyfisherman.yml
+  boostmoneyhunter:
+    file: jobs/admin/money/boostmoneyhunter.yml
+  boostmoneyminer:
+    file: jobs/admin/money/boostmoneyminer.yml
+  boostmoneysmelter:
+    file: jobs/admin/money/boostmoneysmelter.yml
+  boostmoneytaster:
+    file: jobs/admin/money/boostmoneytaster.yml
+  boostmoneyweaponsmith:
+    file: jobs/admin/money/boostmoneyweaponsmith.yml
+  boostmoneywoodcutter:
+    file: jobs/admin/money/boostmoneywoodcutter.yml
+  
+  boostpointsselectjob:
+    file: jobs/admin/points/boostpointsselectjob.yml
+  boostpointsall:
+    file: jobs/admin/points/boostpointsall.yml
+  boostpointsbaker:
+    file: jobs/admin/points/boostpointsbaker.yml
+  boostpointsbrewer:
+    file: jobs/admin/points/boostpointsbrewer.yml
+  boostpointsbuilder:
+    file: jobs/admin/points/boostpointsbuilder.yml
+  boostpointscaretaker:
+    file: jobs/admin/points/boostpointscaretaker.yml
+  boostpointscooker:
+    file: jobs/admin/points/boostpointscooker.yml
+  boostpointscrafter:
+    file: jobs/admin/points/boostpointscrafter.yml
+  boostpointsdigger:
+    file: jobs/admin/points/boostpointsdigger.yml
+  boostpointsenchanter:
+    file: jobs/admin/points/boostpointsenchanter.yml
+  boostpointsexplorer:
+    file: jobs/admin/points/boostpointsexplorer.yml
+  boostpointsfarmer:
+    file: jobs/admin/points/boostpointsfarmer.yml
+  boostpointsfisherman:
+    file: jobs/admin/points/boostpointsfisherman.yml
+  boostpointshunter:
+    file: jobs/admin/points/boostpointshunter.yml
+  boostpointsminer:
+    file: jobs/admin/points/boostpointsminer.yml
+  boostpointssmelter:
+    file: jobs/admin/points/boostpointssmelter.yml
+  boostpointstaster:
+    file: jobs/admin/points/boostpointstaster.yml
+  boostpointsweaponsmith:
+    file: jobs/admin/points/boostpointsweaponsmith.yml
+  boostpointswoodcutter:
+    file: jobs/admin/points/boostpointswoodcutter.yml

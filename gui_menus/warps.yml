@@ -1,0 +1,86 @@
+open_command: 
+  - 'warp'
+  - 'warps'
+size: 27
+menu_title: '&#07FFFF&lVex&#09B0FF&lSMP&8 | &#09B0FF&lWarps'
+
+items:
+  'filler':
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: "&f"
+    data: 1
+    slots: [0-26]
+    
+    
+    
+  'wilderness':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjg1NDA2MGFhNTc3NmI3MzY2OGM4OTg2NTkwOWQxMmQwNjIyNDgzZTYwMGI2NDZmOTBjMTg2YzY1Yjc1ZmY0NSJ9fX0=
+    data: 1
+    slot: 10
+    display_name: "&a&lSPAWN"
+    lore:
+      - "&8Warp Menu"
+      - ""
+      - "&7Warp to Spawn"
+      - "&7&oNpc's: Skills, Jobs,"
+      - "&7&oProfile, Crates"
+      - ""
+      - "&#b4ffa3➥ &lCLICK TO WARP"
+      - ""
+    click_commands:
+    - '[player] spawn'
+    - '[close]'
+
+  'theend':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI5YjE5YWQzYzUxZWRhZDY0M2U0NGRkNWRhNmI5ZDczMTc1NGMxNWE5ZmZiZjgxYzMyYzI4ODZjOTI5MDU3NyJ9fX0=
+    data: 1
+    slot: 14
+    display_name: "&5&lTHE END (coming soon)"
+    lore:
+      - "&8Warp Menu"
+      - ""
+      - "&7Warp to the End"
+      - ""
+      - "&#b4ffa3➥ &lCLICK TO WARP"
+      - ""
+    click_commands:
+    - '[close]'
+
+  'leaderboards':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBjOWEzYTRmZmJlZTYxZDFlZTFjM2E1MzMzNTViZGE5Y2RjMzc3ZTA3YjBmZjhiYzYxOGQzOTc3YjdmODZjYyJ9fX0=
+    data: 1
+    slot: 16
+    display_name: "&6&lCRATES"
+    lore:
+      - "&8Warp Menu"
+      - ""
+      - "&7Warp to crates"
+      - ""
+      - "&#b4ffa3➥ &lCLICK TO WARP"
+      - ""
+    click_commands:
+    - '[player] warp crates'
+    - '[close]'
+  'close':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJkN2E3NTFlYjA3MWUwOGRiYmM5NWJjNWQ5ZDY2ZTVmNTFkYzY3MTI2NDBhZDJkZmEwM2RlZmJiNjhhN2YzYSJ9fX0=
+    data: 1
+    slot: 22
+    display_name: "&8[&cɢᴏ ʙᴀᴄᴋ&8]"
+    lore: []
+    click_commands:
+    - '[openguimenu] menu'
+  'nether':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTEzY2I1NjYxMjRhZWQzYjVkODZiZmFmMWQxYjAxZjY5NTI2NjQ1NjIyZWQ4NTEwYWE4NmE2NmQ1NzA5NmZlNCJ9fX0=
+    data: 1
+    slot: 12
+    display_name: "&4&lTHE NETHER(coming soon)"
+    lore:
+      - "&8Warp Menu"
+      - ""
+      - "&7Warp to the Nether"
+      - ""
+      - "&#b4ffa3➥ &lCLICK TO WARP"
+      - ""
+    click_commands:
+    - '[player] warp nether'
+    - '[close]'
